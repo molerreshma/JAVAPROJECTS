@@ -9,12 +9,6 @@ public class Cricketteam
 		int n,i;
 		System.out.println("Enter the number of bowlers");
 		n=sc.nextInt();
-		int arr[]=new int[n];
-		System.out.println("Enter the runs conceded by the bowlers");
-		 for(i=0;i<n;i++)
-		 {
-			 arr[i]=sc.nextInt();
-		 }
 		 System.out.println("Enter the number of balls for each bowler");
 		int arr2[]=new int[n];
 		for(i=0;i<n;i++)
